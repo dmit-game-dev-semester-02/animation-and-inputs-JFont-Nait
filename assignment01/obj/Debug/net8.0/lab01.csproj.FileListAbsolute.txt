@@ -1,0 +1,52 @@
+C:\Users\Justyn Fontaine\OneDrive\Desktop\Winter Classes\2025-Jan-DMIT1514\Assignments\lab01\bin\Debug\net8.0\lab01.exe
+C:\Users\Justyn Fontaine\OneDrive\Desktop\Winter Classes\2025-Jan-DMIT1514\Assignments\lab01\bin\Debug\net8.0\lab01.deps.json
+C:\Users\Justyn Fontaine\OneDrive\Desktop\Winter Classes\2025-Jan-DMIT1514\Assignments\lab01\bin\Debug\net8.0\lab01.runtimeconfig.json
+C:\Users\Justyn Fontaine\OneDrive\Desktop\Winter Classes\2025-Jan-DMIT1514\Assignments\lab01\bin\Debug\net8.0\lab01.dll
+C:\Users\Justyn Fontaine\OneDrive\Desktop\Winter Classes\2025-Jan-DMIT1514\Assignments\lab01\bin\Debug\net8.0\lab01.pdb
+C:\Users\Justyn Fontaine\OneDrive\Desktop\Winter Classes\2025-Jan-DMIT1514\Assignments\lab01\bin\Debug\net8.0\MonoGame.Framework.dll
+C:\Users\Justyn Fontaine\OneDrive\Desktop\Winter Classes\2025-Jan-DMIT1514\Assignments\lab01\bin\Debug\net8.0\NVorbis.dll
+C:\Users\Justyn Fontaine\OneDrive\Desktop\Winter Classes\2025-Jan-DMIT1514\Assignments\lab01\bin\Debug\net8.0\runtimes\linux-x64\native\libopenal.so.1
+C:\Users\Justyn Fontaine\OneDrive\Desktop\Winter Classes\2025-Jan-DMIT1514\Assignments\lab01\bin\Debug\net8.0\runtimes\osx\native\libopenal.1.dylib
+C:\Users\Justyn Fontaine\OneDrive\Desktop\Winter Classes\2025-Jan-DMIT1514\Assignments\lab01\bin\Debug\net8.0\runtimes\win-x64\native\soft_oal.dll
+C:\Users\Justyn Fontaine\OneDrive\Desktop\Winter Classes\2025-Jan-DMIT1514\Assignments\lab01\bin\Debug\net8.0\runtimes\win-x86\native\soft_oal.dll
+C:\Users\Justyn Fontaine\OneDrive\Desktop\Winter Classes\2025-Jan-DMIT1514\Assignments\lab01\bin\Debug\net8.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\Justyn Fontaine\OneDrive\Desktop\Winter Classes\2025-Jan-DMIT1514\Assignments\lab01\bin\Debug\net8.0\runtimes\osx\native\libSDL2.dylib
+C:\Users\Justyn Fontaine\OneDrive\Desktop\Winter Classes\2025-Jan-DMIT1514\Assignments\lab01\bin\Debug\net8.0\runtimes\win-x64\native\SDL2.dll
+C:\Users\Justyn Fontaine\OneDrive\Desktop\Winter Classes\2025-Jan-DMIT1514\Assignments\lab01\obj\Debug\net8.0\lab01.csproj.AssemblyReference.cache
+C:\Users\Justyn Fontaine\OneDrive\Desktop\Winter Classes\2025-Jan-DMIT1514\Assignments\lab01\obj\Debug\net8.0\lab01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Justyn Fontaine\OneDrive\Desktop\Winter Classes\2025-Jan-DMIT1514\Assignments\lab01\obj\Debug\net8.0\lab01.AssemblyInfoInputs.cache
+C:\Users\Justyn Fontaine\OneDrive\Desktop\Winter Classes\2025-Jan-DMIT1514\Assignments\lab01\obj\Debug\net8.0\lab01.AssemblyInfo.cs
+C:\Users\Justyn Fontaine\OneDrive\Desktop\Winter Classes\2025-Jan-DMIT1514\Assignments\lab01\obj\Debug\net8.0\lab01.csproj.CoreCompileInputs.cache
+C:\Users\Justyn Fontaine\OneDrive\Desktop\Winter Classes\2025-Jan-DMIT1514\Assignments\lab01\obj\Debug\net8.0\lab01.sourcelink.json
+C:\Users\Justyn Fontaine\OneDrive\Desktop\Winter Classes\2025-Jan-DMIT1514\Assignments\lab01\obj\Debug\net8.0\lab01.csproj.Up2Date
+C:\Users\Justyn Fontaine\OneDrive\Desktop\Winter Classes\2025-Jan-DMIT1514\Assignments\lab01\obj\Debug\net8.0\lab01.dll
+C:\Users\Justyn Fontaine\OneDrive\Desktop\Winter Classes\2025-Jan-DMIT1514\Assignments\lab01\obj\Debug\net8.0\refint\lab01.dll
+C:\Users\Justyn Fontaine\OneDrive\Desktop\Winter Classes\2025-Jan-DMIT1514\Assignments\lab01\obj\Debug\net8.0\lab01.pdb
+C:\Users\Justyn Fontaine\OneDrive\Desktop\Winter Classes\2025-Jan-DMIT1514\Assignments\lab01\obj\Debug\net8.0\lab01.genruntimeconfig.cache
+C:\Users\Justyn Fontaine\OneDrive\Desktop\Winter Classes\2025-Jan-DMIT1514\Assignments\lab01\obj\Debug\net8.0\ref\lab01.dll
+C:\Users\JFont\Desktop\Github\2025-Jan-DMIT1514\Assignments\animation-and-inputs-JFont-Nait\lab01\bin\Debug\net8.0\lab01.exe
+C:\Users\JFont\Desktop\Github\2025-Jan-DMIT1514\Assignments\animation-and-inputs-JFont-Nait\lab01\bin\Debug\net8.0\lab01.deps.json
+C:\Users\JFont\Desktop\Github\2025-Jan-DMIT1514\Assignments\animation-and-inputs-JFont-Nait\lab01\bin\Debug\net8.0\lab01.runtimeconfig.json
+C:\Users\JFont\Desktop\Github\2025-Jan-DMIT1514\Assignments\animation-and-inputs-JFont-Nait\lab01\bin\Debug\net8.0\lab01.dll
+C:\Users\JFont\Desktop\Github\2025-Jan-DMIT1514\Assignments\animation-and-inputs-JFont-Nait\lab01\bin\Debug\net8.0\lab01.pdb
+C:\Users\JFont\Desktop\Github\2025-Jan-DMIT1514\Assignments\animation-and-inputs-JFont-Nait\lab01\bin\Debug\net8.0\MonoGame.Framework.dll
+C:\Users\JFont\Desktop\Github\2025-Jan-DMIT1514\Assignments\animation-and-inputs-JFont-Nait\lab01\bin\Debug\net8.0\NVorbis.dll
+C:\Users\JFont\Desktop\Github\2025-Jan-DMIT1514\Assignments\animation-and-inputs-JFont-Nait\lab01\bin\Debug\net8.0\runtimes\linux-x64\native\libopenal.so.1
+C:\Users\JFont\Desktop\Github\2025-Jan-DMIT1514\Assignments\animation-and-inputs-JFont-Nait\lab01\bin\Debug\net8.0\runtimes\osx\native\libopenal.1.dylib
+C:\Users\JFont\Desktop\Github\2025-Jan-DMIT1514\Assignments\animation-and-inputs-JFont-Nait\lab01\bin\Debug\net8.0\runtimes\win-x64\native\soft_oal.dll
+C:\Users\JFont\Desktop\Github\2025-Jan-DMIT1514\Assignments\animation-and-inputs-JFont-Nait\lab01\bin\Debug\net8.0\runtimes\win-x86\native\soft_oal.dll
+C:\Users\JFont\Desktop\Github\2025-Jan-DMIT1514\Assignments\animation-and-inputs-JFont-Nait\lab01\bin\Debug\net8.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\JFont\Desktop\Github\2025-Jan-DMIT1514\Assignments\animation-and-inputs-JFont-Nait\lab01\bin\Debug\net8.0\runtimes\osx\native\libSDL2.dylib
+C:\Users\JFont\Desktop\Github\2025-Jan-DMIT1514\Assignments\animation-and-inputs-JFont-Nait\lab01\bin\Debug\net8.0\runtimes\win-x64\native\SDL2.dll
+C:\Users\JFont\Desktop\Github\2025-Jan-DMIT1514\Assignments\animation-and-inputs-JFont-Nait\lab01\obj\Debug\net8.0\lab01.csproj.AssemblyReference.cache
+C:\Users\JFont\Desktop\Github\2025-Jan-DMIT1514\Assignments\animation-and-inputs-JFont-Nait\lab01\obj\Debug\net8.0\lab01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JFont\Desktop\Github\2025-Jan-DMIT1514\Assignments\animation-and-inputs-JFont-Nait\lab01\obj\Debug\net8.0\lab01.AssemblyInfoInputs.cache
+C:\Users\JFont\Desktop\Github\2025-Jan-DMIT1514\Assignments\animation-and-inputs-JFont-Nait\lab01\obj\Debug\net8.0\lab01.AssemblyInfo.cs
+C:\Users\JFont\Desktop\Github\2025-Jan-DMIT1514\Assignments\animation-and-inputs-JFont-Nait\lab01\obj\Debug\net8.0\lab01.csproj.CoreCompileInputs.cache
+C:\Users\JFont\Desktop\Github\2025-Jan-DMIT1514\Assignments\animation-and-inputs-JFont-Nait\lab01\obj\Debug\net8.0\lab01.sourcelink.json
+C:\Users\JFont\Desktop\Github\2025-Jan-DMIT1514\Assignments\animation-and-inputs-JFont-Nait\lab01\obj\Debug\net8.0\lab01.csproj.Up2Date
+C:\Users\JFont\Desktop\Github\2025-Jan-DMIT1514\Assignments\animation-and-inputs-JFont-Nait\lab01\obj\Debug\net8.0\lab01.dll
+C:\Users\JFont\Desktop\Github\2025-Jan-DMIT1514\Assignments\animation-and-inputs-JFont-Nait\lab01\obj\Debug\net8.0\refint\lab01.dll
+C:\Users\JFont\Desktop\Github\2025-Jan-DMIT1514\Assignments\animation-and-inputs-JFont-Nait\lab01\obj\Debug\net8.0\lab01.pdb
+C:\Users\JFont\Desktop\Github\2025-Jan-DMIT1514\Assignments\animation-and-inputs-JFont-Nait\lab01\obj\Debug\net8.0\lab01.genruntimeconfig.cache
+C:\Users\JFont\Desktop\Github\2025-Jan-DMIT1514\Assignments\animation-and-inputs-JFont-Nait\lab01\obj\Debug\net8.0\ref\lab01.dll

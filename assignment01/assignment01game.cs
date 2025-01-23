@@ -17,7 +17,8 @@ public class Assignment01game : Game
     private CelAnimationPlayer _animation01, _animation02;
     private KeyboardState _kbPreviousState;
     private bool isRight;
-    private Vector2 _position;  //???
+    private float _positionX = 0, _positionY = 900;  //???
+    private float _speed = 2;
     public Assignment01game()
     {
         _graphics = new GraphicsDeviceManager(this);
@@ -50,7 +51,7 @@ public class Assignment01game : Game
         _animation01.Play(_sequence01);
         _animation02.Play(_sequence02);
 
-        _position = new Vector2(); //???
+        // _positionX = new Vector2(); //???
     }
 
     protected override void Update(GameTime gameTime)
@@ -72,13 +73,13 @@ public class Assignment01game : Game
         }
         if(kbCurrentState.IsKeyDown(Keys.Left))
         {
-            _position.X += 3f;  //???
+            _positionX += -_speed;  //???
             isRight = false;
             _animation01.Update(gameTime);
         }
         if(kbCurrentState.IsKeyDown(Keys.Right))
         {
-            _position.X += 3f;  //???
+            _positionX += _speed;  //???
             isRight = true;
             _animation01.Update(gameTime);
         }
@@ -125,12 +126,13 @@ public class Assignment01game : Game
 
         if (isRight == true)
         {
-            _animation01.Draw(_spriteBatch, new Vector2(50, 1040 - _sequence01.CelHeight), SpriteEffects.None);
+            _animation01.Draw(_spriteBatch, new Vector2(_positionX, _positionY - _sequence01.CelHeight), SpriteEffects.None);
         }
         else
         {
-            _animation01.Draw(_spriteBatch, new Vector2(50, 1040 - _sequence01.CelHeight), SpriteEffects.FlipHorizontally);
+            _animation01.Draw(_spriteBatch, new Vector2(_positionX, _positionY - _sequence01.CelHeight), SpriteEffects.FlipHorizontally);
         }
+        
         _animation02.Draw(_spriteBatch, new Vector2(1400, 750 - _sequence02.CelHeight), SpriteEffects.None);
 
         _spriteBatch.End();

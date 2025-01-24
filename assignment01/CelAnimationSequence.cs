@@ -23,20 +23,22 @@ public class CelAnimationSequence
 
     // Calculated count of cels in the sequence
     protected int celCount;
-    protected int rowIndex; //Added for Assignment01
+    // protected int rowIndex; //Added for Assignment01
 
     /// <summary>
     /// Constructs a new CelAnimationSequence.
     /// </summary>        
-    public CelAnimationSequence(Texture2D texture, int celWidth, float celTime, int rowIndex)   //', int rowIndex' Added for Assignment01
+    public CelAnimationSequence(Texture2D texture, int celWidth, int celHeight, float celTime, int celCount = 0)   //', int celHeight' Added for Assignment01
     {
         this.texture = texture;
         this.celWidth = celWidth;
         this.celTime = celTime;
-        this.rowIndex = rowIndex;   //Added for Assignment01
+        this.celCount = celCount;   //Added for Assignment01
 
-        celHeight = Texture.Height;
-        celCount = Texture.Width / celWidth;
+        this.celCount = Texture.Width / celWidth;
+        this.celHeight = celHeight;
+        // this.celHeight = Texture.Height / celHeight;
+
     }
 
     /// <summary>
@@ -82,6 +84,16 @@ public class CelAnimationSequence
     //Added for Assignment01
     public Rectangle GetCelSourceRectangle(int celIndex)
     {
-        return new Rectangle(celIndex * celWidth, rowIndex * celHeight, celWidth, celHeight);
+        // int columns = texture.Width / celWidth;
+        int row = celIndex / (texture.Width / celWidth);
+        int column = celIndex % (texture.Width / celWidth);
+        return new Rectangle(column * celWidth, row * celHeight, celWidth, celHeight);
+        // return new Rectangle(celIndex * celWidth, celCount * celHeight, celWidth, celHeight);
     }
 }
+
+
+
+
+
+

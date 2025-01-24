@@ -1,4 +1,6 @@
 ﻿using System;
+// using System.Drawing;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
 namespace assignment01game;
@@ -21,15 +23,17 @@ public class CelAnimationSequence
 
     // Calculated count of cels in the sequence
     protected int celCount;
+    protected int rowIndex; //Added for Assignment01
 
     /// <summary>
     /// Constructs a new CelAnimationSequence.
     /// </summary>        
-    public CelAnimationSequence(Texture2D texture, int celWidth, float celTime)
+    public CelAnimationSequence(Texture2D texture, int celWidth, float celTime, int rowIndex)   //', int rowIndex' Added for Assignment01
     {
         this.texture = texture;
         this.celWidth = celWidth;
         this.celTime = celTime;
+        this.rowIndex = rowIndex;   //Added for Assignment01
 
         celHeight = Texture.Height;
         celCount = Texture.Width / celWidth;
@@ -73,5 +77,11 @@ public class CelAnimationSequence
     public int CelHeight
     {
         get { return celHeight; }
+    }
+
+    //Added for Assignment01
+    public Rectangle GetCelSourceRectangle(int celIndex)
+    {
+        return new Rectangle(celIndex * celWidth, rowIndex * celHeight, celWidth, celHeight);
     }
 }

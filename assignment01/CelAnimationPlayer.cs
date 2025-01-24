@@ -31,10 +31,11 @@ public class CelAnimationPlayer
             celIndex = 0;
             celTimeElapsed = 0.0f;
 
-            celSourceRectangle.X = 0;
-            celSourceRectangle.Y = 0;
-            celSourceRectangle.Width = this.celAnimationSequence.CelWidth;
-            celSourceRectangle.Height = this.celAnimationSequence.CelHeight;
+            // celSourceRectangle.X = 0;
+            // celSourceRectangle.Y = 0;
+            // celSourceRectangle.Width = this.celAnimationSequence.CelWidth;
+            // celSourceRectangle.Height = this.celAnimationSequence.CelHeight;
+            celSourceRectangle = celAnimationSequence.GetCelSourceRectangle(celIndex);  //Added for Assignment01, above comments were class work.
         }
     }
 
@@ -55,7 +56,8 @@ public class CelAnimationPlayer
                 // Advance the frame index looping as appropriate...
                 celIndex = (celIndex + 1) % celAnimationSequence.CelCount;
 
-                celSourceRectangle.X = celIndex * celSourceRectangle.Width;
+                // celSourceRectangle.X = celIndex * celSourceRectangle.Width;
+                celSourceRectangle = celAnimationSequence.GetCelSourceRectangle(celIndex);  //Added for Assignment01, above comments were class work.
             }
         }
     }

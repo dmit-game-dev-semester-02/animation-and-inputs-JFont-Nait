@@ -17,8 +17,10 @@ public class Assignment01game : Game
     private CelAnimationPlayer _animation01, _animation02;
     private KeyboardState _kbPreviousState;
     private bool isRight;
+    private bool isUp;
     private float _positionX = 0, _positionY = 900;  //???
     private float _speed = 2;
+    private Texture2D spriteSheet01, spriteSheet02;
     public Assignment01game()
     {
         _graphics = new GraphicsDeviceManager(this);
@@ -39,11 +41,13 @@ public class Assignment01game : Game
         _spriteBatch = new SpriteBatch(GraphicsDevice);
         _background = Content.Load<Texture2D>("background");
         _tree = Content.Load<Texture2D>("tree");
-        Texture2D spriteSheet01 = Content.Load<Texture2D>("businesswalk");
-        Texture2D spriteSheet02 = Content.Load<Texture2D>("walking");
+        spriteSheet01 = Content.Load<Texture2D>("walking");
+        spriteSheet02 = Content.Load<Texture2D>("businesswalk");
+        // Texture2D spriteSheet01 = Content.Load<Texture2D>("walking");
+        // Texture2D spriteSheet02 = Content.Load<Texture2D>("businesswalk");
 
-        _sequence01 = new CelAnimationSequence(spriteSheet01, 61, 1 / 7f);
-        _sequence02 = new CelAnimationSequence(spriteSheet02, 84, 1 / 7f);
+        _sequence01 = new CelAnimationSequence(spriteSheet01,108, 1 / 7f, 0);
+        _sequence02 = new CelAnimationSequence(spriteSheet02, 61, 1 / 7f, 0);
 
         _animation01 = new CelAnimationPlayer();
         _animation02 = new CelAnimationPlayer();
@@ -60,28 +64,43 @@ public class Assignment01game : Game
         _animation02.Update(gameTime);
 
         KeyboardState kbCurrentState = Keyboard.GetState();
-        // _message = "";
 
         #region Arrow Keys
         if(kbCurrentState.IsKeyDown(Keys.Up))
         {
-            
-        }
-        if(kbCurrentState.IsKeyDown(Keys.Down))
-        {
-            
-        }
-        if(kbCurrentState.IsKeyDown(Keys.Left))
-        {
-            _positionX += -_speed;  //???
+            _positionY -= _speed;
+            isUp = false;
             isRight = false;
-            _animation01.Update(gameTime);
+            _sequence01 = new CelAnimationSequence(spriteSheet01, 108, 1 / 7f, 2);
+            // _animation01.Update(gameTime);
+            _animation01.Play(_sequence01);
         }
-        if(kbCurrentState.IsKeyDown(Keys.Right))
+        else if(kbCurrentState.IsKeyDown(Keys.Down))
+        {
+            _positionY += _speed;
+            isUp = true;
+            isRight = false;
+            _sequence01 = new CelAnimationSequence(spriteSheet01, 108, 1 / 7f, 0);
+            _animation01.Update(gameTime);
+            // _animation01.Play(_sequence01);
+        }
+        else if(kbCurrentState.IsKeyDown(Keys.Left))
+        {
+            _positionX -= _speed;  //???
+            isUp = true;
+            isRight = false;
+            _sequence01 = new CelAnimationSequence(spriteSheet01, 108, 1 / 7f, 1);
+            // _animation01.Update(gameTime);
+            _animation01.Play(_sequence01);
+        }
+        else if(kbCurrentState.IsKeyDown(Keys.Right))
         {
             _positionX += _speed;  //???
+            isUp = true;
             isRight = true;
-            _animation01.Update(gameTime);
+            _sequence01 = new CelAnimationSequence(spriteSheet01, 108, 1 / 7f, 1);
+            // _animation01.Update(gameTime);
+            _animation01.Play(_sequence01);
         }
         #endregion
 
@@ -126,11 +145,19 @@ public class Assignment01game : Game
 
         if (isRight == true)
         {
+            _animation01.Draw(_spriteBatch, new Vector2(_positionX, _positionY - _sequence01.CelHeight), SpriteEffects.FlipHorizontally);//None);
+        }
+        else
+        {
+            _animation01.Draw(_spriteBatch, new Vector2(_positionX, _positionY - _sequence01.CelHeight), SpriteEffects.None);//FlipHorizontally);
+        }
+        if (isUp == true)
+        {
             _animation01.Draw(_spriteBatch, new Vector2(_positionX, _positionY - _sequence01.CelHeight), SpriteEffects.None);
         }
         else
         {
-            _animation01.Draw(_spriteBatch, new Vector2(_positionX, _positionY - _sequence01.CelHeight), SpriteEffects.FlipHorizontally);
+            _animation01.Draw(_spriteBatch, new Vector2(_positionX, _positionY - _sequence01.CelHeight), SpriteEffects.None);//FlipVertically);
         }
         
         _animation02.Draw(_spriteBatch, new Vector2(1400, 750 - _sequence02.CelHeight), SpriteEffects.None);

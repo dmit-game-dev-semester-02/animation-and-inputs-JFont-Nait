@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/Justyn Fontaine/OneDrive/Desktop/Winter Classes/2025-Jan-DMIT1514/Assignments/animation-and-inputs-JFont-Nait/assignment01/Content/walking.png</SourceFile>
-  <SourceTime>2025-01-25T16:41:06.9537393-07:00</SourceTime>
-  <DestFile>C:/Users/Justyn Fontaine/OneDrive/Desktop/Winter Classes/2025-Jan-DMIT1514/Assignments/animation-and-inputs-JFont-Nait/assignment01/Content/bin/DesktopGL/Content/walking.xnb</DestFile>
-  <DestTime>2025-01-25T16:43:00.1056489-07:00</DestTime>
+  <SourceFile>C:/Users/Justyn Fontaine/OneDrive/Desktop/Winter Classes/2025-Jan-DMIT1514/Assignments/animation-and-inputs-JFont-Nait/assignment01/Content/Fire.png</SourceFile>
+  <SourceTime>2025-01-24T23:06:27.0906421-07:00</SourceTime>
+  <DestFile>C:/Users/Justyn Fontaine/OneDrive/Desktop/Winter Classes/2025-Jan-DMIT1514/Assignments/animation-and-inputs-JFont-Nait/assignment01/Content/bin/DesktopGL/Content/Fire.xnb</DestFile>
+  <DestTime>2025-01-24T23:07:23.9945097-07:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2024-08-16T11:05:56-06:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

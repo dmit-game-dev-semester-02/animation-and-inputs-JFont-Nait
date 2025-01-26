@@ -4,12 +4,14 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/JFont/Desktop/Github/2025-Jan-DMIT1514/Assignments/animation-and-inputs-JFont-Nait/assignment01/Content/background.png</File>
-    <File>C:/Users/JFont/Desktop/Github/2025-Jan-DMIT1514/Assignments/animation-and-inputs-JFont-Nait/assignment01/Content/businesswalk.png</File>
-    <File>C:/Users/JFont/Desktop/Github/2025-Jan-DMIT1514/Assignments/animation-and-inputs-JFont-Nait/assignment01/Content/tree.png</File>
-    <File>C:/Users/JFont/Desktop/Github/2025-Jan-DMIT1514/Assignments/animation-and-inputs-JFont-Nait/assignment01/Content/walking.png</File>
+    <File>C:/Users/Justyn Fontaine/OneDrive/Desktop/Winter Classes/2025-Jan-DMIT1514/Assignments/animation-and-inputs-JFont-Nait/assignment01/Content/background.png</File>
+    <File>C:/Users/Justyn Fontaine/OneDrive/Desktop/Winter Classes/2025-Jan-DMIT1514/Assignments/animation-and-inputs-JFont-Nait/assignment01/Content/Fire.png</File>
+    <File>C:/Users/Justyn Fontaine/OneDrive/Desktop/Winter Classes/2025-Jan-DMIT1514/Assignments/animation-and-inputs-JFont-Nait/assignment01/Content/somedude.png</File>
+    <File>C:/Users/Justyn Fontaine/OneDrive/Desktop/Winter Classes/2025-Jan-DMIT1514/Assignments/animation-and-inputs-JFont-Nait/assignment01/Content/tree.png</File>
+    <File>C:/Users/Justyn Fontaine/OneDrive/Desktop/Winter Classes/2025-Jan-DMIT1514/Assignments/animation-and-inputs-JFont-Nait/assignment01/Content/walking.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

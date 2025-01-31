@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "Ey89PwqdWfg=",
+  "dgSpecHash": "c8mpsuPUBho=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Justyn Fontaine\\OneDrive\\Desktop\\Winter Classes\\2025-Jan-DMIT1514\\Assignments\\animation-and-inputs-JFont-Nait\\assignment01\\assignment01.csproj",
+  "projectFilePath": "C:\\Users\\JFont\\Desktop\\Github\\2025-Jan-DMIT1514\\Assignments\\animation-and-inputs-JFont-Nait\\assignment01\\assignment01.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Justyn Fontaine\\.nuget\\packages\\monogame.content.builder.task\\3.8.2.1105\\monogame.content.builder.task.3.8.2.1105.nupkg.sha512",
-    "C:\\Users\\Justyn Fontaine\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.2.1105\\monogame.framework.desktopgl.3.8.2.1105.nupkg.sha512",
-    "C:\\Users\\Justyn Fontaine\\.nuget\\packages\\monogame.library.sdl\\2.26.5.5\\monogame.library.sdl.2.26.5.5.nupkg.sha512",
-    "C:\\Users\\Justyn Fontaine\\.nuget\\packages\\nvorbis\\0.10.4\\nvorbis.0.10.4.nupkg.sha512",
-    "C:\\Users\\Justyn Fontaine\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
-    "C:\\Users\\Justyn Fontaine\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+    "C:\\Users\\JFont\\.nuget\\packages\\monogame.content.builder.task\\3.8.2.1105\\monogame.content.builder.task.3.8.2.1105.nupkg.sha512",
+    "C:\\Users\\JFont\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.2.1105\\monogame.framework.desktopgl.3.8.2.1105.nupkg.sha512",
+    "C:\\Users\\JFont\\.nuget\\packages\\monogame.library.sdl\\2.26.5.5\\monogame.library.sdl.2.26.5.5.nupkg.sha512",
+    "C:\\Users\\JFont\\.nuget\\packages\\nvorbis\\0.10.4\\nvorbis.0.10.4.nupkg.sha512",
+    "C:\\Users\\JFont\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\JFont\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }
